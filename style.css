@@ -23,21 +23,19 @@ input {
     border-radius: var(--borderRadius) !important;
 }
 
-
-
 a {
     text-decoration: none;
     color: black;
 }
 
-card {
+.card {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
 }
 
 button.link {
     padding: 5px 10px;
     border-radius: var(--borderRadius) !important;
-    border: none ;
+    border: none;
 }
 
 button.link:hover {
