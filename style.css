@@ -1,0 +1,47 @@
+/* Add Your Css here */
+
+* {
+    font-family: Roboto;
+}
+
+:root {
+    --borderRadius: 12px;
+    --bgColor: pink;
+    --bgColorHoverBtn: rgb(173, 121, 130);
+}
+
+.navbar {
+    background-color: var(--bgColor) !important;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+input {
+    border-radius: var(--borderRadius) !important;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+button.link {
+    padding: 5px 10px;
+    border-radius: var(--borderRadius) !important;
+    border: none ;
+}
+
+button.link:hover {
+    background-color: var(--bgColorHoverBtn) !important;
+    transition: background-color 1s ease;
+    border: none;
+}
